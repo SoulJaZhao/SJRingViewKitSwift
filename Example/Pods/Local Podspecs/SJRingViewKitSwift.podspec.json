@@ -1,0 +1,22 @@
+{
+  "name": "SJRingViewKitSwift",
+  "version": "0.1.0",
+  "summary": "A short description of SJRingViewKitSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SoulJaZhao/SJRingViewKitSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SoulJaZhao": "superzhaolong@126.com"
+  },
+  "source": {
+    "git": "https://github.com/SoulJaZhao/SJRingViewKitSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SJRingViewKitSwift/Classes/**/*"
+}

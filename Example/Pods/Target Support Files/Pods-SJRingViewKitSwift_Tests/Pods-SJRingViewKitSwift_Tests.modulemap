@@ -1,0 +1,6 @@
+framework module Pods_SJRingViewKitSwift_Tests {
+  umbrella header "Pods-SJRingViewKitSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

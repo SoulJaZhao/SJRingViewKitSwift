@@ -1,0 +1,16 @@
+PODS:
+  - SJRingViewKitSwift (0.1.0)
+
+DEPENDENCIES:
+  - SJRingViewKitSwift (from `../`)
+
+EXTERNAL SOURCES:
+  SJRingViewKitSwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SJRingViewKitSwift: 8f752cba8745d2e82c3c48f2c1212bdaac980093
+
+PODFILE CHECKSUM: 264c3d74d188f12104781648a0b8def6dd741d59
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module SJRingViewKitSwift {
+  umbrella header "SJRingViewKitSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
