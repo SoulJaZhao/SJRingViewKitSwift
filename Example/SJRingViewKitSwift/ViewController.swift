@@ -21,20 +21,7 @@ class ViewController: UIViewController {
         ringView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         self.view.addSubview(ringView)
         
-        if #available(iOS 10.0, *) {
-            self.timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { (timer) in
-                if (self.progress > 1.0) {
-                    self.progress = 0.0
-                } else {
-                    self.progress = self.progress + 0.001
-                    ringView.drawRing(progress: self.progress)
-
-                }
-                
-            })
-        } else {
-            // Fallback on earlier versions
-        }
+        ringView.drawRing(progress: 0.5)
     }
 
     override func didReceiveMemoryWarning() {
