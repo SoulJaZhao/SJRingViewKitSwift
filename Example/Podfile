@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SJRingViewKitSwift_Example' do
+  pod 'SJRingViewKitSwift', :path => '../'
+
+  target 'SJRingViewKitSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
